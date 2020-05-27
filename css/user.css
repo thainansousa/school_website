@@ -87,3 +87,16 @@ section.userContent form a:hover{
     opacity: 0.9;
 }
 /* End User Content */
+
+@media screen and (max-width: 500px){
+    section.userContent form{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    section.userContent form input, 
+    section.userContent form select
+    {
+        margin-bottom: 10px;
+    }
+}
