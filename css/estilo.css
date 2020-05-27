@@ -643,5 +643,13 @@ nav.menuList ul a li{
         font-size: 4em;
         margin: 10px;
     }
+    header{
+        padding-left: 30px;
+    }
+}
+@media screen and (max-width: 600px){
+    #mainSlider .sliderTitle h1{
+        font-size: 2.5em;
+    }
 }
 /* End Responsive */
