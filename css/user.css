@@ -95,8 +95,12 @@ section.userContent form a:hover{
         margin-top: 20px;
     }
     section.userContent form input, 
-    section.userContent form select
+    section.userContent form select,
+    section.userContent form textarea
     {
         margin-bottom: 10px;
+    }
+    section.userContent .titleContent h3{
+        text-align: center;
     }
 }
