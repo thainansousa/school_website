@@ -271,6 +271,14 @@ nav.menuList{
     margin-bottom: 50px;
 
 }
+#searchCourses .form{
+    width: 100%;
+    text-align: center;
+}
+#searchCourses .form form{
+    display: flex;
+    flex-direction: column;
+}
 #searchCourses h1{
     color: #0d9ff3;
     font-size: 2em;
@@ -280,25 +288,27 @@ nav.menuList{
     color: #1DA1F2;
 }
 #searchCourses input{
-    width: 50%;
+    width: 70%;
     height: 40px;
     outline: none;
     border: 1px solid #ccc;
     padding: 10px;
     font-size: 16px;
     margin-right: 5px;
+    margin: 0 auto;
 }
 #searchCourses input:focus{
     border: 1px solid #0d9ff3;
 }
 #searchCourses button{
-    width: 50px;
+    width: 180px;
     height: 35px;
     background-color: #0d9ff3;
     color: white;
     cursor: pointer;
     border: none;
     outline: none;
+    margin: 5px auto;
 }
 #searchCourses button:hover{
     background-color: rgb(19, 96, 145);
@@ -631,6 +641,7 @@ nav.menuList ul a li{
     }
     #mainSlider .sliderTitle h1{
         font-size: 4em;
+        margin: 10px;
     }
 }
 /* End Responsive */
