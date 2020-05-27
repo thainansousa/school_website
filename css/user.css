@@ -1,0 +1,89 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+
+html, body{
+    height: 100%;
+}
+
+/* End Reset */
+
+/* Start User Content */
+section.userContent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6f6f6;
+}
+section.userContent .titleContent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #0d9ff3;
+    padding: 25px 0;
+}
+section.userContent .titleContent h3{
+    font-size: 2em;
+    color: #fff;
+}
+section.userContent form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    width: 90%;
+    margin-top: 50px;
+}
+section.userContent form input[type=email],
+section.userContent form a,
+section.userContent form input[type=file],
+section.userContent form textarea
+{
+    grid-column: span 2;
+}
+section.userContent form input,
+section.userContent form select
+{
+    line-height: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 5px 5px 5px 10px;
+    border-radius: 5px;
+    resize: none;
+}
+section.userContent form textarea{
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    resize: none;
+}
+section.userContent form input:focus,
+section.userContent form select:focus,
+section.userContent form textarea:focus
+{
+    border-color: #0d9ff3;
+    transition: 200ms;
+}
+section.userContent form a{
+    cursor: pointer;
+    font-size: 16px;;
+    background-color: #0d9ff3;
+    border: none;
+    color: #fff;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+}
+section.userContent form a:hover{
+    opacity: 0.9;
+}
+/* End User Content */

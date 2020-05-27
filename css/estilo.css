@@ -14,31 +14,21 @@ html, body{
 /* End Reset */
 
 /* Start section login */
-/* #login{
+.logIn{
     width: 100%;
-    background-color: #222;
-    display: flex;
-    justify-content: space-between;
     padding: 5px;
+    display: flex;
+    justify-content: flex-end;
     color: #fff;;
     border-bottom: 1px solid #fff;
-    align-items: center;
+    background-color: #222;
+ 
 }
-#login .user img{
-    width: 30px;
-    height: 30px;
-}
-#login .user .imgClass{
-    display: flex;
-    align-items: center;
-    margin-left: 20px;
-}
-
-#login .logIn a{
+.logIn a{
     text-decoration: none;
     color: #fff;
     margin-right: 10px;
-} */
+}
 /* End section login */
 
 /* Start Header */
