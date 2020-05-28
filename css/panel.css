@@ -20,8 +20,8 @@ html, body{
 section.dashboard{
     width: 20%;
     height: auto;
-    background-color: rgba(207, 207, 207, 0.3);
-    border-right: rgb(16, 85, 128);;
+    background-color: rgba(16, 85, 128, 0.9);
+    border-right: rgb(16, 85, 128);
     border-top: 0;
     border-left: 0;
     border-bottom: 0;
@@ -52,7 +52,7 @@ section.dashboard .perfil .photo_user i{
 section.dashboard .perfil .info_user{
     text-align: center;
     margin: 10px 0;
-    color: rgb(16, 85, 128);
+    color: #fff;
 }
 section.dashboard section.options{
     padding: 5px;
@@ -63,17 +63,17 @@ section.dashboard section.options div{
 }
 section.dashboard section.options div a{
     text-decoration: none;
-    color: rgb(16, 85, 128);
+    color: #fff;
     font-size: 16px;
     width: 100%;
     display: inline-block;
-    border-top-right-radius: 30px;
     padding: 5px;
+
 }
 section.dashboard section.options div a:hover{
-    background-color: rgb(0, 0, 0);
     color: #0d9ff3;
     transition: 400ms;
+    opacity: 1;
 }
 section.dashboard section.options div a i{
     font-size: 20px;
